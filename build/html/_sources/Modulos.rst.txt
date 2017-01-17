@@ -2,12 +2,12 @@ Modulos
 *******
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contenido:
 
    Agenda
    Urgencias
-   Agenda_online
+   agenda_online
    Cobranza
    Ficha_clinica
    ficha_kinesica
