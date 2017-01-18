@@ -1,5 +1,5 @@
-Ultimas Consultas
-*****************
+Historial de Consultas
+**********************
 .. toctree::
    :glob:
    :caption: Contenido:

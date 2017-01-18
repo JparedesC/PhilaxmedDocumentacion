@@ -1,0 +1,2 @@
+Observaciones a consulta
+************************
