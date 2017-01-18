@@ -1,0 +1,2 @@
+Ingreso de signos vitales
+*************************

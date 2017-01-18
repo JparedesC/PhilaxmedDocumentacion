@@ -1,0 +1,2 @@
+Manejo de diagnósticos GES
+**************************
