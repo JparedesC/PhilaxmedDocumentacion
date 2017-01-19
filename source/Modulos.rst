@@ -5,7 +5,7 @@ Modulos
 
 .. image::  Imagenes\Modulos.png
     
- 
+.. image::  Modulos.png
    
 
 
