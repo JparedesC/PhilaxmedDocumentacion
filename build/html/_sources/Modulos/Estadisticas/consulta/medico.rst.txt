@@ -1,0 +1,2 @@
+Diagnósticos por Médico
+***********************
