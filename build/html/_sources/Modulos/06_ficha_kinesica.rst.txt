@@ -1,2 +1,9 @@
 Ficha Kinesica
 **************
+
+   
+.. toctree::
+   :glob:
+   :caption: Contenido:
+
+   FichaKinesica/*

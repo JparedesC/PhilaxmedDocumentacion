@@ -1,0 +1,2 @@
+Información de caracter permanente
+**********************************
