@@ -11,7 +11,7 @@ Crear un paciente
 Para crear un nuevo paciente se debe ingresar desde el botón “Ingresar paciente”.
 
 
-.. image::  imagenes/CrearPaciente.jpg
+.. image::  imagenes/crearPaciente.jpg
    :align:   center
    :alt: Crear un nuevo paciente
 
