@@ -1,9 +1,9 @@
-Ficha Kinesica
-**************
+Nueva sesión
+************
 
    
 .. toctree::
    :glob:
    :caption: Contenido:
 
-   FichaKinesica/*
+   nuevaSesion/*
