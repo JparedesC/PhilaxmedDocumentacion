@@ -1,2 +1,2 @@
-Idicaciones
-***********
+Indicaciones
+************
