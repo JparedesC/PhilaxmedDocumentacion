@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Configurar mi Agenda &mdash; documentación de Philaxmed - 0.0.1</title>
+  <title>Configurar horarios de mi Agenda &mdash; documentación de Philaxmed - 0.0.1</title>
   
 
   
@@ -90,7 +90,11 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../Modulos.html">Modulos</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../01_agenda.html">Agendas</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="01_inicio.html">Vista inicial</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Configurar mi Agenda</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Configurar horarios de mi Agenda</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#congifuraciion-de-agenda">Congifuraciíon de Agenda</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#modificar-dia">Modificar día</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="03_pacientes.html">Creación y edición Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="04_citas.html">Citas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
@@ -98,18 +102,19 @@
 <li class="toctree-l3"><a class="reference internal" href="07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="08_tratamientos.html">Creación y administración de tratamientos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="09_vista_avanzada.html">Vista avanzada de Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_vista_semanal.html">Vista Semanal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="10_mis_pacientes.html">Ver mis Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="11_configuracion_cuenta.html">Configurar mi cuenta</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../02_agenda_online.html">Agenda online</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03_cobranza.html">Cobranza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../04_estadisticas.html">Estadísticas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../05_ficha_clinica.html">Ficha Clínica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../06_ficha_kinesica.html">Ficha Kinesica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../07_ficha_psicologia.html">Ficha Psicologica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../08_urgencias.html">Urgencia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../09_configuracion.html">Configuracion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../09_estadisticas.html">Estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../10_configuracion.html">Configuracion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../Versiones.html">Ultimas Versiones</a></li>
@@ -151,7 +156,7 @@
       
           <li><a href="../01_agenda.html">Agendas</a> &raquo;</li>
       
-    <li>Configurar mi Agenda</li>
+    <li>Configurar horarios de mi Agenda</li>
       <li class="wy-breadcrumbs-aside">
         
           
@@ -165,8 +170,27 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="configurar-mi-agenda">
-<h1>Configurar mi Agenda<a class="headerlink" href="#configurar-mi-agenda" title="Enlazar permanentemente con este título">¶</a></h1>
+  <div class="section" id="configurar-horarios-de-mi-agenda">
+<h1>Configurar horarios de mi Agenda<a class="headerlink" href="#configurar-horarios-de-mi-agenda" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Desde el modulo de atenda los usuarios</p>
+<div class="section" id="congifuraciion-de-agenda">
+<h2>Congifuraciíon de Agenda<a class="headerlink" href="#congifuraciion-de-agenda" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde “Opciones de agenda” se despliega un listado de alternativas, entre ellas están “Configurar agenda” y “Modificar día”.
+“Configurar agenda” es una herramienta con la cual se puede asignar el periodo de trabajo durante cada día de la semana. Cuando una agenda es creada, ésta por defecto viene con un periodo ya asignado de un año.</p>
+<img alt="Modulos\Agenda\imagenes/configurarAgenda.png" src="Modulos\Agenda\imagenes/configurarAgenda.png" />
+<ul class="simple">
+<li><strong>Selección de periodo:</strong> permite editar o crear un nuevo periodo, modificando nombre, fecha de inicio y fecha de término.</li>
+<li><strong>Selección de día:</strong> permite seleccionar el día deseado para configurar.</li>
+<li><strong>Configuración de día:</strong> al tener un día ya seleccionado podemos configurar los cupos de la agenda, ingresando la hora, cantidad de cupos por hora, duración del cupo en minutos, tipo de atención, restricción y activar todos o ciertos cupos para agendamiento online. Si todos los días tienen el mismo horario es recomendable utilizar la funcionalidad “Copiar cupos del día”.</li>
+</ul>
+<p>Una vez terminada la configuración, es muy importante cerrar la ventana con el “Check”, para que la información ingresada quede guardada.</p>
+</div>
+<div class="section" id="modificar-dia">
+<h2>Modificar día<a class="headerlink" href="#modificar-dia" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde “Opciones de agenda” el sistema permite modificar la agenda de un día en específico, dicha modificación no altera la configuración de agenda para los demás días.
+Para realizar éste procedimiento es importante seleccionar la agenda y la fecha que se desea modificar, luego de eliminar o agregar los cupos correspondientes. En ésta vista una vez guardadas las modificaciones se visualizará una de las siguientes leyendas “Este día ha sido modificado” y “Este es un día normal”.</p>
+<img alt="Modulos\Agenda\imagenes/modificarDia.png" src="Modulos\Agenda\imagenes/modificarDia.png" />
+</div>
 </div>
 
 
