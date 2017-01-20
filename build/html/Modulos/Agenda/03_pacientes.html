@@ -36,7 +36,7 @@
     <link rel="top" title="documentación de Philaxmed - 0.0.1" href="../../index.html"/>
         <link rel="up" title="Agendas" href="../01_agenda.html"/>
         <link rel="next" title="Citas" href="04_citas.html"/>
-        <link rel="prev" title="Configurar mi Agenda" href="02_configuracion_agenda.html"/> 
+        <link rel="prev" title="Configurar horarios de mi Agenda" href="02_configuracion_agenda.html"/> 
 
   
   <script src="../../_static/js/modernizr.min.js"></script>
@@ -90,26 +90,31 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../Modulos.html">Modulos</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../01_agenda.html">Agendas</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="01_inicio.html">Vista inicial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar mi Agenda</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Creación y edición Pacientes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar horarios de mi Agenda</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Creación y edición Pacientes</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#crear-un-paciente">Crear un paciente</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#edicion-de-pacientes">Edición de pacientes</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="04_citas.html">Citas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="06_documentos_paciente.html">Impresión de documentos del paciente</a></li>
 <li class="toctree-l3"><a class="reference internal" href="07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="08_tratamientos.html">Creación y administración de tratamientos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="09_vista_avanzada.html">Vista avanzada de Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_vista_semanal.html">Vista Semanal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="10_mis_pacientes.html">Ver mis Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="11_configuracion_cuenta.html">Configurar mi cuenta</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../02_agenda_online.html">Agenda online</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03_cobranza.html">Cobranza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../04_estadisticas.html">Estadísticas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../05_ficha_clinica.html">Ficha Clínica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../06_ficha_kinesica.html">Ficha Kinesica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../07_ficha_psicologia.html">Ficha Psicologica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../08_urgencias.html">Urgencia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../09_configuracion.html">Configuracion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../09_estadisticas.html">Estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../10_configuracion.html">Configuracion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../Versiones.html">Ultimas Versiones</a></li>
@@ -167,6 +172,25 @@
             
   <div class="section" id="creacion-y-edicion-pacientes">
 <h1>Creación y edición Pacientes<a class="headerlink" href="#creacion-y-edicion-pacientes" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Desde la vista inicial de la agenda, existe el botón de buscar pacientes, el cual permite registrar un paciente o editar uno ya existente.</p>
+<div class="section" id="crear-un-paciente">
+<h2>Crear un paciente<a class="headerlink" href="#crear-un-paciente" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Para crear un nuevo paciente se debe ingresar desde el botón “Ingresar paciente”.</p>
+<img alt="Crear un nuevo paciente" class="align-center" src="../../_images/CrearPaciente.jpg" />
+<ul class="simple">
+<li><strong>Datos del paciente:</strong> existe una variedad de datos personales del paciente para completar, sin embargo, solo algunos de éstos son obligatorios; RUT, Sexo, Nombre y Apellido.</li>
+<li><strong>Tipo de paciente:</strong> el sistema también permite ingresar pacientes que sean extranjeros mediante el número de pasaporte y/o pacientes sin identificación.</li>
+<li><strong>Defunción del paciente:</strong> mediante un permiso asignado por el equipo de soporte Philaxmed, se pude registrar la defunción de un paciente.</li>
+<li><strong>Observaciones:</strong> Permite registrar cualquier información relevante del paciente.</li>
+</ul>
+<p>Una vez terminado el registro de pacientes, clickear el botón “Guardar”</p>
+</div>
+<div class="section" id="edicion-de-pacientes">
+<h2>Edición de pacientes<a class="headerlink" href="#edicion-de-pacientes" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La búsqueda de un paciente ya registrado puede ser mediante RUT, pasaporte, nombre y apellidos. Una vez identificado el paciente se debe clickear en datos personales e ingresar o modificar lo deseado.
+Philaxmed® permite conocer que usuario fue quien registró o modificó por última vez los datos personales de un paciente.</p>
+<img alt="Editar un paciente" class="align-center" src="../../_images/editarPaciente.jpg" />
+</div>
 </div>
 
 
@@ -179,7 +203,7 @@
         <a href="04_citas.html" class="btn btn-neutral float-right" title="Citas" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="02_configuracion_agenda.html" class="btn btn-neutral" title="Configurar mi Agenda" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="02_configuracion_agenda.html" class="btn btn-neutral" title="Configurar horarios de mi Agenda" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
