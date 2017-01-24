@@ -3,7 +3,7 @@ Vista inicial
 
 Al ingresar al módulo, se accede directamente a la vista inicial de la Agenda. Desde aquí se pueden acceder a todas las operaciones necesarias para manejar sus citas y pacientes. Aquí se visualiza el menú principal con todas las opciones pacientes, usuarios y agendas, un calendario para recorrer las agendas y el listado de todas agendas del centro. A partir de esta vista se puede acceder tanto al módulo de cobranza como a las fichas clínicas, si es que el usuario cuenta con los permisos correspondientes.
 
-.. image::  imagenes/vistaAgenda.jpg
+.. image::  imagenes/VistaAgenda.jpg
    :align:   center
    :alt: Vista principal de Agenda
 
