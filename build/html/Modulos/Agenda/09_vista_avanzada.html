@@ -35,7 +35,7 @@
         <link rel="search" title="Búsqueda" href="../../search.html"/>
     <link rel="top" title="documentación de Philaxmed - 0.0.1" href="../../index.html"/>
         <link rel="up" title="Agendas" href="../01_agenda.html"/>
-        <link rel="next" title="Ver mis Pacientes" href="10_mis_pacientes.html"/>
+        <link rel="next" title="Vista Semanal" href="09_vista_semanal.html"/>
         <link rel="prev" title="Creación y administración de tratamientos" href="08_tratamientos.html"/> 
 
   
@@ -90,26 +90,30 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../Modulos.html">Modulos</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../01_agenda.html">Agendas</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="01_inicio.html">Vista inicial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar mi Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar horarios de mi Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="03_pacientes.html">Creación y edición Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="04_citas.html">Citas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="06_documentos_paciente.html">Impresión de documentos del paciente</a></li>
 <li class="toctree-l3"><a class="reference internal" href="07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="08_tratamientos.html">Creación y administración de tratamientos</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Vista avanzada de Agenda</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Vista avanzada de Agenda</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#funcionalidades">Funcionalidades</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="09_vista_semanal.html">Vista Semanal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="10_mis_pacientes.html">Ver mis Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="11_configuracion_cuenta.html">Configurar mi cuenta</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../02_agenda_online.html">Agenda online</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03_cobranza.html">Cobranza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../04_estadisticas.html">Estadísticas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../05_ficha_clinica.html">Ficha Clínica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../06_ficha_kinesica.html">Ficha Kinesica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../07_ficha_psicologia.html">Ficha Psicologica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../08_urgencias.html">Urgencia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../09_configuracion.html">Configuracion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../09_estadisticas.html">Estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../10_configuracion.html">Configuracion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../Versiones.html">Ultimas Versiones</a></li>
@@ -167,6 +171,18 @@
             
   <div class="section" id="vista-avanzada-de-agenda">
 <h1>Vista avanzada de Agenda<a class="headerlink" href="#vista-avanzada-de-agenda" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>La Vista avanzada de agenda permite al usuario ver desde una perspectiva general el listado de todas citas del centro. Gracias a diversos filtros, esta vista también permite hacer búsquedas de cupos mucho más específicos. Por último la vista avanzada entrega un recuadro con un resumen de estadísticas, en el cual se muestra información del estado de las citas en el periodo buscado.</p>
+<img alt="Vista avanzada de agenda" class="align-center" src="../../_images/vistaAvanzada.jpg" />
+<div class="section" id="funcionalidades">
+<h2>Funcionalidades<a class="headerlink" href="#funcionalidades" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li>Desde esta vista se puede acceder al listado de pacientes, mis opciones y cobranza.</li>
+<li>La selección de fecha “desde” y “hasta” permiten hacer una búsqueda en un rango de fechas específico, por defecto el rango es una semana desde el día actual.</li>
+<li>Existen distintos filtros para detallar la búsqueda de cupos: Especialidades de la agenda, Nombre de agendas, Estado de cita, tipo de cita y existencia o no de notas en la cita. Para que se apliquen los filtros se debe hacer clic en botón actualizar.</li>
+<li>Además de lo anterior en esta vista se pueden hacer todas las funcionalidades relacionadas al manejo de citas de la misma manejar que en la vista simple de Agenda</li>
+<li>Para regresar a la vista simple o acceder a la vista semana se debe hacer clic en los botones ubicados en la esquina inferior izquierda de la página.</li>
+</ul>
+</div>
 </div>
 
 
@@ -176,7 +192,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="10_mis_pacientes.html" class="btn btn-neutral float-right" title="Ver mis Pacientes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="09_vista_semanal.html" class="btn btn-neutral float-right" title="Vista Semanal" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="08_tratamientos.html" class="btn btn-neutral" title="Creación y administración de tratamientos" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>

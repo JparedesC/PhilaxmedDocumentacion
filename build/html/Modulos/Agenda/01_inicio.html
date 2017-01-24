@@ -35,7 +35,7 @@
         <link rel="search" title="Búsqueda" href="../../search.html"/>
     <link rel="top" title="documentación de Philaxmed - 0.0.1" href="../../index.html"/>
         <link rel="up" title="Agendas" href="../01_agenda.html"/>
-        <link rel="next" title="Configurar mi Agenda" href="02_configuracion_agenda.html"/>
+        <link rel="next" title="Configurar horarios de mi Agenda" href="02_configuracion_agenda.html"/>
         <link rel="prev" title="Agendas" href="../01_agenda.html"/> 
 
   
@@ -90,7 +90,7 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../Modulos.html">Modulos</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../01_agenda.html">Agendas</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Vista inicial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar mi Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="02_configuracion_agenda.html">Configurar horarios de mi Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="03_pacientes.html">Creación y edición Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="04_citas.html">Citas</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
@@ -98,18 +98,19 @@
 <li class="toctree-l3"><a class="reference internal" href="07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="08_tratamientos.html">Creación y administración de tratamientos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="09_vista_avanzada.html">Vista avanzada de Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09_vista_semanal.html">Vista Semanal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="10_mis_pacientes.html">Ver mis Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="11_configuracion_cuenta.html">Configurar mi cuenta</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../02_agenda_online.html">Agenda online</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../03_cobranza.html">Cobranza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../04_estadisticas.html">Estadísticas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../05_ficha_clinica.html">Ficha Clínica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../06_ficha_kinesica.html">Ficha Kinesica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../07_ficha_psicologia.html">Ficha Psicologica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../08_urgencias.html">Urgencia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../09_configuracion.html">Configuracion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../09_estadisticas.html">Estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../10_configuracion.html">Configuracion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../Versiones.html">Ultimas Versiones</a></li>
@@ -167,6 +168,20 @@
             
   <div class="section" id="vista-inicial">
 <h1>Vista inicial<a class="headerlink" href="#vista-inicial" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Al ingresar al módulo, se accede directamente a la vista inicial de la Agenda. Desde aquí se pueden acceder a todas las operaciones necesarias para manejar sus citas y pacientes. Aquí se visualiza el menú principal con todas las opciones pacientes, usuarios y agendas, un calendario para recorrer las agendas y el listado de todas agendas del centro. A partir de esta vista se puede acceder tanto al módulo de cobranza como a las fichas clínicas, si es que el usuario cuenta con los permisos correspondientes.</p>
+<img alt="Vista principal de Agenda" class="align-center" src="../../_images/vistaAgenda.jpg" />
+<ul class="simple">
+<li><strong>Datos del usuario:</strong> En la parte superior de la página, se identifica al usuario que ingresó a la aplicación con su nombre y especialidad.</li>
+<li><strong>Logos:</strong> La vista por defecto trae el logo institucional del centro y el de Philaxmed®, este último puede ser quitado si el usuario lo desea contactando al equipo de soporte.</li>
+<li><strong>Calendario:</strong> A la izquierda se encuentra el calendario, el cual permite al usuario seleccionar el día en que desea agendar o revisar agendamientos anteriores o posteriores.</li>
+<li><strong>Agendas:</strong> Los usuarios administrativos o clínicos pueden ver el listado de agendas con su especialidad respectiva, por defecto están visibles todas las agendas, sin embargo, se puede filtrar por especialidad. En el caso de que un centro desida ocultar la visibilidad de ciertas agendas para algunos usuarios se pueden contactar con el equipo de Soporte para realizar los filtros necesarios.</li>
+<li><strong>Agenda profesional:</strong> El usuario clínico tiene su agenda dividida en periodos de tarde y mañana, ésta permite agendar, cambiar el estado de de la cita, escribir notas generales, notas para un día de la semana y notas para un día especifico del calendario.</li>
+<li><strong>Estado del paciente:</strong> El proceso de la atención de cada paciente se reconoce mediante los colores de la cita; el color verde significa paciente agendado, color amarillo paciente confirmado, color rojo llegada del paciente, color morado paciente en atención, color azul paciente atendido y color gris paciente no se presentó. Cada una de éstos estados son activados y desactivados por los usuarios administrativos y clínicos.</li>
+<li><strong>Ordenar citas:</strong> En la parte inferior de la pantalla el sistema permite ordenar las citas reservadas por color, y al presionar los botones hora, nombre, edad, tipo y cita estos se ordenan por abecedario, menor a mayo o viceversa.</li>
+<li><strong>Botón mensajes:</strong> El equipo de Philaxmed®  alertará al usuario a través del botón de mensajes cuando desee informar respecto a modificaciones y/o actualizaciones en el sistema.</li>
+<li><strong>Botón cambiar:</strong> Cuando un centro tiene más de una sucursal éste botón permite navegar entre las sucursales del centro.</li>
+<li><strong>Botón salir:</strong> Permite cerrar sesión y salir de la agenda.</li>
+</ul>
 </div>
 
 
@@ -176,7 +191,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="02_configuracion_agenda.html" class="btn btn-neutral float-right" title="Configurar mi Agenda" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="02_configuracion_agenda.html" class="btn btn-neutral float-right" title="Configurar horarios de mi Agenda" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="../01_agenda.html" class="btn btn-neutral" title="Agendas" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
