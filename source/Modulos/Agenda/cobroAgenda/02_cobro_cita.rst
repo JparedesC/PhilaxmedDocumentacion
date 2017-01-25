@@ -1,2 +1,2 @@
-Cobro de citas
-**************
+Cobro de citas y tratamientos
+*****************************

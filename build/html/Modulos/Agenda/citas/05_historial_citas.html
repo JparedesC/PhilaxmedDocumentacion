@@ -35,8 +35,8 @@
         <link rel="search" title="Búsqueda" href="../../../search.html"/>
     <link rel="top" title="documentación de Philaxmed - 0.0.1" href="../../../index.html"/>
         <link rel="up" title="Citas" href="../04_citas.html"/>
-        <link rel="next" title="Reagendar" href="06_reagendar.html"/>
-        <link rel="prev" title="Opciones de Cita" href="04_opcion_cita.html"/> 
+        <link rel="next" title="Opciones de Cita" href="06_opcion_cita.html"/>
+        <link rel="prev" title="Citas de grupos" href="04_citas_grupales.html"/> 
 
   
   <script src="../../../_static/js/modernizr.min.js"></script>
@@ -90,15 +90,17 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../../../Modulos.html">Modulos</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../../01_agenda.html">Agendas</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../01_inicio.html">Vista inicial</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../02_configuracion_agenda.html">Configurar mi Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02_configuracion_agenda.html">Configurar horarios de mi Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03_pacientes.html">Creación y edición Pacientes</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../04_citas.html">Citas</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="01_crear_cita.html">Crear un Cita</a></li>
-<li class="toctree-l4"><a class="reference internal" href="02_actividades.html">Citas de Actividades</a></li>
-<li class="toctree-l4"><a class="reference internal" href="03_citas_grupales.html">Citas de grupos</a></li>
-<li class="toctree-l4"><a class="reference internal" href="04_opcion_cita.html">Opciones de Cita</a></li>
+<li class="toctree-l4"><a class="reference internal" href="02_estados_cita.html">Manejo de una cita</a></li>
+<li class="toctree-l4"><a class="reference internal" href="03_actividades.html">Citas de Actividades</a></li>
+<li class="toctree-l4"><a class="reference internal" href="04_citas_grupales.html">Citas de grupos</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Historial de citas</a></li>
-<li class="toctree-l4"><a class="reference internal" href="06_reagendar.html">Reagendar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="06_opcion_cita.html">Opciones de Cita</a></li>
+<li class="toctree-l4"><a class="reference internal" href="07_reagendar.html">Reagendar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="08_citas_pendientes.html">Citas pendientes</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="../05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
@@ -106,18 +108,19 @@
 <li class="toctree-l3"><a class="reference internal" href="../07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../08_tratamientos.html">Creación y administración de tratamientos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../09_vista_avanzada.html">Vista avanzada de Agenda</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09_vista_semanal.html">Vista Semanal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../10_mis_pacientes.html">Ver mis Pacientes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../11_configuracion_cuenta.html">Configurar mi cuenta</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../02_agenda_online.html">Agenda online</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../03_cobranza.html">Cobranza</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../04_estadisticas.html">Estadísticas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../05_ficha_clinica.html">Ficha Clínica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../06_ficha_kinesica.html">Ficha Kinesica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../07_ficha_psicologia.html">Ficha Psicologica</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../08_urgencias.html">Urgencia</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../09_configuracion.html">Configuracion</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../09_estadisticas.html">Estadísticas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../10_configuracion.html">Configuracion</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../../Versiones.html">Ultimas Versiones</a></li>
@@ -177,6 +180,18 @@
             
   <div class="section" id="historial-de-citas">
 <h1>Historial de citas<a class="headerlink" href="#historial-de-citas" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Todas las citas registradas a un paciente pueden ser vistas en el Historial de Citas. Esta vista está separada en dos partes, las citas anteriores y las próximas citas.
+Para ingresar a esta vista existen tiene dos opciones, una es a través de un agendamiento, ingresando a las Opciones de Cita y luego acceder desde las Opciones del Paciente. La segunda, es buscando un paciente en la vista de Búsqueda y acceder a las Opciones del Paciente y luego a la opción Citas.</p>
+<img alt="Historial de citas" class="align-center" src="../../../_images/historialCitas.jpg" />
+<div class="section" id="funcionalidades">
+<h2>Funcionalidades<a class="headerlink" href="#funcionalidades" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li>Filtro para ver las citas individuales y grupales del paciente</li>
+<li>Filtro para ver si las citas tienen tratamiento</li>
+<li>Vista de historial de citas: además del detalle básico que muestra la vista es posible hacer clic en un agendamiento específico para poder ver todos los eventos de esa cita. Cada evento tiene registrado la fecha en que se realizó y quien lo hizo</li>
+</ul>
+<img alt="Evolución de Cita" class="align-center" src="../../../_images/evolucionCita.png" />
+</div>
 </div>
 
 
@@ -186,10 +201,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="06_reagendar.html" class="btn btn-neutral float-right" title="Reagendar" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="06_opcion_cita.html" class="btn btn-neutral float-right" title="Opciones de Cita" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="04_opcion_cita.html" class="btn btn-neutral" title="Opciones de Cita" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="04_citas_grupales.html" class="btn btn-neutral" title="Citas de grupos" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

@@ -2,10 +2,10 @@ Configurar horarios de mi Agenda
 ********************************
 
 
-Desde el modulo de atenda los usuarios 
+Desde el modulo de agenda los usuarios 
 
 
-Congifuracíon de Agenda
+Congfiguracíon de Agenda
 ------------------------
 Desde “Opciones de agenda” se despliega un listado de alternativas, entre ellas están “Configurar agenda” y “Modificar día”.
 “Configurar agenda” es una herramienta con la cual se puede asignar el periodo de trabajo durante cada día de la semana. Cuando una agenda es creada, ésta por defecto viene con un periodo ya asignado de un año.

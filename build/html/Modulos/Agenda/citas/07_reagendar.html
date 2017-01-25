@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Cobro de citas y tratamientos &mdash; documentación de Philaxmed - 0.0.1</title>
+  <title>Reagendar &mdash; documentación de Philaxmed - 0.0.1</title>
   
 
   
@@ -34,9 +34,9 @@
               href="../../../genindex.html"/>
         <link rel="search" title="Búsqueda" href="../../../search.html"/>
     <link rel="top" title="documentación de Philaxmed - 0.0.1" href="../../../index.html"/>
-        <link rel="up" title="Cobros en modulo de agenda" href="../05_cobro_agenda.html"/>
-        <link rel="next" title="Crear presupuestos" href="03_presupuestos.html"/>
-        <link rel="prev" title="Configuración de cobros" href="01_configuracion.html"/> 
+        <link rel="up" title="Citas" href="../04_citas.html"/>
+        <link rel="next" title="Citas pendientes" href="08_citas_pendientes.html"/>
+        <link rel="prev" title="Opciones de Cita" href="06_opcion_cita.html"/> 
 
   
   <script src="../../../_static/js/modernizr.min.js"></script>
@@ -92,17 +92,18 @@
 <li class="toctree-l3"><a class="reference internal" href="../01_inicio.html">Vista inicial</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../02_configuracion_agenda.html">Configurar horarios de mi Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03_pacientes.html">Creación y edición Pacientes</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../04_citas.html">Citas</a></li>
-<li class="toctree-l3 current"><a class="reference internal" href="../05_cobro_agenda.html">Cobros en modulo de agenda</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="01_configuracion.html">Configuración de cobros</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">Cobro de citas y tratamientos</a></li>
-<li class="toctree-l4"><a class="reference internal" href="03_presupuestos.html">Crear presupuestos</a></li>
-<li class="toctree-l4"><a class="reference internal" href="04_cobro_sin_cita.html">Cobros sin una Cita</a></li>
-<li class="toctree-l4"><a class="reference internal" href="05_pago.html">Pago de cuentas</a></li>
-<li class="toctree-l4"><a class="reference internal" href="06_editarCobros.html">Editar un Cobro</a></li>
-<li class="toctree-l4"><a class="reference internal" href="07_cuentas_paciente.html">Cuentas del paciente</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../04_citas.html">Citas</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="01_crear_cita.html">Crear un Cita</a></li>
+<li class="toctree-l4"><a class="reference internal" href="02_estados_cita.html">Manejo de una cita</a></li>
+<li class="toctree-l4"><a class="reference internal" href="03_actividades.html">Citas de Actividades</a></li>
+<li class="toctree-l4"><a class="reference internal" href="04_citas_grupales.html">Citas de grupos</a></li>
+<li class="toctree-l4"><a class="reference internal" href="05_historial_citas.html">Historial de citas</a></li>
+<li class="toctree-l4"><a class="reference internal" href="06_opcion_cita.html">Opciones de Cita</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">Reagendar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="08_citas_pendientes.html">Citas pendientes</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../05_cobro_agenda.html">Cobros en modulo de agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../06_documentos_paciente.html">Impresión de documentos del paciente</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../07_notas_agenda.html">Creacion de notas de Agenda</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../08_tratamientos.html">Creación y administración de tratamientos</a></li>
@@ -161,13 +162,13 @@
       
           <li><a href="../../01_agenda.html">Agendas</a> &raquo;</li>
       
-          <li><a href="../05_cobro_agenda.html">Cobros en modulo de agenda</a> &raquo;</li>
+          <li><a href="../04_citas.html">Citas</a> &raquo;</li>
       
-    <li>Cobro de citas y tratamientos</li>
+    <li>Reagendar</li>
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../../_sources/Modulos/Agenda/cobroAgenda/02_cobro_cita.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../_sources/Modulos/Agenda/citas/07_reagendar.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -177,8 +178,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="cobro-de-citas-y-tratamientos">
-<h1>Cobro de citas y tratamientos<a class="headerlink" href="#cobro-de-citas-y-tratamientos" title="Enlazar permanentemente con este título">¶</a></h1>
+  <div class="section" id="reagendar">
+<h1>Reagendar<a class="headerlink" href="#reagendar" title="Enlazar permanentemente con este título">¶</a></h1>
 </div>
 
 
@@ -188,10 +189,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="03_presupuestos.html" class="btn btn-neutral float-right" title="Crear presupuestos" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="08_citas_pendientes.html" class="btn btn-neutral float-right" title="Citas pendientes" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="01_configuracion.html" class="btn btn-neutral" title="Configuración de cobros" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="06_opcion_cita.html" class="btn btn-neutral" title="Opciones de Cita" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   
